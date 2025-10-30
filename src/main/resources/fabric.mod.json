@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "hyla",
+	"version": "${version}",
+	"name": "Hyla",
+	"description": "Hyla mod developed by Karen!",
+	"authors": [
+		"Karen!"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/karen-matsunaga/Fabric-1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/hyla/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.karen.hyla.Hyla"
+		],
+		"client": [
+			"net.karen.hyla.HylaClient"
+		],
+		"fabric-datagen": [
+			"net.karen.hyla.HylaDataGenerator"
+		]
+	},
+	"mixins": [
+		"hyla.mixins.json",
+		{
+			"config": "hyla.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

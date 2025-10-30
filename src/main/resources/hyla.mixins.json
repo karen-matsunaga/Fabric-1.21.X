@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.karen.hyla.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "HylaMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.karen.hyla.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+      "HylaClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
