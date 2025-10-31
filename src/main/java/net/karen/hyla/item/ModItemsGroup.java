@@ -18,6 +18,7 @@ public class ModItemsGroup {
                                             .displayName(Text.translatable("itemgroup.hyla.pink_items"))
                                             .entries((displayContext, entries) -> {
                                                 entries.add(ModItems.PINK);
+                                                entries.add(ModItems.CHISEL);
                                             }).build());
 
     public static final ItemGroup PINK_BLOCKS_GROUP =

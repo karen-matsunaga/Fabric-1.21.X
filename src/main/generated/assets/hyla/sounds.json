@@ -1,0 +1,9 @@
+{
+  "chisel_use": {
+    "category": "block",
+    "sounds": [
+      "hyla:chisel_use"
+    ],
+    "subtitle": "sounds.hyla.chisel_use"
+  }
+}

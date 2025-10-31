@@ -1,6 +1,7 @@
 package net.karen.hyla.item;
 
 import net.karen.hyla.Hyla;
+import net.karen.hyla.item.custom.ChiselItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -11,7 +12,10 @@ import java.util.function.Function;
 
 public class ModItems {
     public static Item PINK = registerItem("pink", set -> new Item(set.fireproof()));
+    public static Item CHISEL =
+           registerItem("chisel", set -> new ChiselItem(set.fireproof().maxDamage(32)));
 
+    // CUSTOM METHOD - Register all Hyla items (Item + Custom classes)
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(Hyla.MOD_ID, name),
                                  function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM,

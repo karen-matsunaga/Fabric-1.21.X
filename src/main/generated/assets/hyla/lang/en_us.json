@@ -1,6 +1,9 @@
 {
   "block.hyla.pink_block": "Pink Block",
+  "item.hyla.chisel": "Chisel",
   "item.hyla.pink": "Pink",
   "itemgroup.hyla.pink_blocks": "Pink Block Group",
-  "itemgroup.hyla.pink_items": "Pink Item Group"
+  "itemgroup.hyla.pink_items": "Pink Item Group",
+  "subtitles.hyla.chisel_use": "Chisel Use Sound",
+  "tooltip.hyla.chisel": "Chisel"
 }

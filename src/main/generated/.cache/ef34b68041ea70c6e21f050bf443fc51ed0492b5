@@ -1,6 +1,9 @@
 // 1.21.10	-999999999-01-01T00:00:00	Hyla/Hyla Mod Models Provider
 cda322779357e77b6285a756727568b3c34caf83 assets/hyla/blockstates/pink_block.json
+1c3ae22a3489e8310f42ced9bc0e5fe31a3ad2ef assets/hyla/items/chisel.json
 506f784d302ab3a4a0007411171bb5566e19012f assets/hyla/items/pink.json
 ec86fc81d68261f0abdfe110d35ea623b73ff0f3 assets/hyla/items/pink_block.json
 ac5c01c5125c6e87b6113b417ec1668f37832ea0 assets/hyla/models/block/pink_block.json
+8f22f1dd5c35ec0bdd9432e2c5b524128c150fce assets/hyla/models/item/chisel.json
+62d53599d89aaf91ed612ac5f35cd762def46610 assets/hyla/models/item/chisel_used.json
 87a524d839bbb0d40bad4b864241835d83ab4094 assets/hyla/models/item/pink.json

@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "component": "hyla:coordinates",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "hyla:item/chisel"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "hyla:item/chisel_used"
+    },
+    "property": "minecraft:has_component"
+  }
+}
